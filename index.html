@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>民權管樂團 - 贊助方案</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- 導航欄 -->
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">民權管樂團</h1>
+            <ul class="nav-links">
+                <li><a href="#home">首頁</a></li>
+                <li><a href="#about">關於我們</a></li>
+                <li><a href="#sponsorship">贊助方案</a></li>
+                <li><a href="#contact">聯絡我們</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 首頁區域 -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>民權管樂團</h2>
+            <p>用音樂傳遞熱情，與您一起譜寫故事</p>
+            <button class="cta-button" onclick="document.getElementById('sponsorship').scrollIntoView({behavior: 'smooth'})">
+                了解贊助
+            </button>
+        </div>
+    </section>
+
+    <!-- 關於我們 -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>關於我們</h2>
+            <p>民權管樂團致力於推廣音樂文化，提供優質的音樂表演和教育機會。</p>
+        </div>
+    </section>
+
+    <!-- 贊助方案 -->
+    <section id="sponsorship" class="sponsorship">
+        <div class="container">
+            <h2>贊助方案</h2>
+            <div class="sponsorship-cards">
+                <!-- 白銀贊助方案 -->
+                <div class="card">
+                    <h3>白銀贊助</h3>
+                    <p class="price">$5,000</p>
+                    <ul>
+                        <li>✓ 贊助者名單展示</li>
+                        <li>✓ 活動邀請函</li>
+                        <li>✓ 感謝狀</li>
+                    </ul>
+                    <button class="sponsor-button">選擇方案</button>
+                </div>
+
+                <!-- 黃金贊助方案 -->
+                <div class="card gold">
+                    <div class="badge">推薦</div>
+                    <h3>黃金贊助</h3>
+                    <p class="price">$15,000</p>
+                    <ul>
+                        <li>✓ 獨家贊助者專區</li>
+                        <li>✓ VIP 活動邀請</li>
+                        <li>✓ 品牌露出機會</li>
+                        <li>✓ 感謝狀</li>
+                    </ul>
+                    <button class="sponsor-button gold">選擇方案</button>
+                </div>
+
+                <!-- 鑽石贊助方案 -->
+                <div class="card">
+                    <h3>鑽石贊助</h3>
+                    <p class="price">$50,000</p>
+                    <ul>
+                        <li>✓ 命名權</li>
+                        <li>✓ 專屬品牌合作</li>
+                        <li>✓ 尊榮貴賓待遇</li>
+                        <li>✓ 年度感謝晚宴邀請</li>
+                        <li>✓ 感謝狀</li>
+                    </ul>
+                    <button class="sponsor-button">選擇方案</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 聯絡我們 -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>聯絡我們</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">姓名</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">電子郵件</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">訊息</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">發送訊息</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- 頁尾 -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 民權管樂團。版權所有。</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
